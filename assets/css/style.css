@@ -164,24 +164,24 @@ p {
   line-height: 1.2;
 }
 a {
-    color: var(--white);
-    text-decoration: none;
-    text-decoration: underline;
+  color: var(--white);
+  text-decoration: none;
+  text-decoration: underline;
 }
 
 .whatToDo {
-    background-color: #e2313a;
+  background-color: #e2313a;
 }
 .whatToDo li {
-    color: var(--white);
-    list-style: none;
-    font-size: 20px;
-    padding: 1rem 1rem 0 1rem;
+  color: var(--white);
+  list-style: none;
+  font-size: 20px;
+  padding: 1rem 1rem 0 1rem;
 }
 
 header {
   height: 6rem;
-  background-color: black; 
+  background-color: black;
   border-bottom: 1px solid var(--red);
   display: flex;
   justify-content: space-between;
@@ -189,10 +189,10 @@ header {
 }
 
 .logo {
-    place-self: center;
-    font-size: 1.3rem;
-    margin-left: 4rem;
-    color: var(--white);
+  place-self: center;
+  font-size: 1.3rem;
+  margin-left: 4rem;
+  color: var(--white);
 }
 
 nav {
@@ -205,9 +205,7 @@ header nav ul {
 }
 header nav ul li {
   padding: 0 2rem 0 2rem;
-  
 }
-
 
 .indexMain {
   display: flex;
@@ -242,32 +240,27 @@ header nav ul li {
 }
 .profileImage2 {
   width: 10rem;
+  height: 10rem;
   box-shadow: 5px 5px #0f0e0e;
   background-color: #e2313a;
 }
 
-
 /* testing */
 
-
-      nav a {
-        --fill-color: #e2313a;
-        font: 1.7rem Railway, sans-serif;
-        font-weight: 900;
-        text-decoration: none;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        -webkit-text-stroke: 2px var(--fill-color);
-        background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
-        color: transparent;
-        background-clip: text;
-        -webkit-background-clip: text;
-        transition: 0.2s linear;
-    }
-        a:hover {
-          background-size: 100%;
-        }
-      
-    
-  
-
+nav a {
+  --fill-color: #e2313a;
+  font: 1.7rem Railway, sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px var(--fill-color);
+  background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: 0.2s linear;
+}
+a:hover {
+  background-size: 100%;
+}

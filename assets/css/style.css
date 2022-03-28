@@ -171,12 +171,18 @@ a {
 
 .whatToDo {
     background-color: #e2313a;
+    padding: 2rem;
+}
+
+.whatToDo p {
+    font-size: 26px;
+    padding-left: 1rem;
 }
 .whatToDo li {
     color: var(--white);
     list-style: none;
     font-size: 20px;
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem;
 }
 
 header {
@@ -223,6 +229,7 @@ header nav ul li {
 
 .indexSectionOne h1 {
   font-size: 2rem;
+  color: var(--red);
 }
 .introP {
   font-size: 20px;

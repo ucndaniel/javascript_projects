@@ -175,20 +175,13 @@ header {
   background-color: black;
   border-bottom: 1px solid var(--red);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 4rem;
-}
-
-.logo {
-  place-self: center;
-  font-size: 1.3rem;
-  margin-left: 4rem;
-  color: var(--white);
 }
 
 nav {
   place-self: center;
-  margin-right: 4rem;
+
 }
 
 header nav ul {
@@ -227,8 +220,7 @@ header nav ul li {
   place-self: center;
 }
 
-.whatToDo {
-  }
+
   .whatToDo li {
     color: var(--white);
     list-style: none;

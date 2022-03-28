@@ -128,7 +128,7 @@ table {
   border-spacing: 0;
 }
 
-/* START OF CSS */
+/* START OF CSS -------------------------------------------------------------------------------------------------------------------------*/
 
 :root {
   --black: #272727;
@@ -163,10 +163,25 @@ p {
   color: var(--white);
   line-height: 1.2;
 }
+a {
+    color: var(--white);
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.whatToDo {
+    background-color: #e2313a;
+}
+.whatToDo li {
+    color: var(--white);
+    list-style: none;
+    font-size: 20px;
+    padding: 1rem 1rem 0 1rem;
+}
 
 header {
   height: 6rem;
-   background-color: black; 
+  background-color: black; 
   border-bottom: 1px solid var(--red);
   display: flex;
   justify-content: space-between;
@@ -204,7 +219,6 @@ header nav ul li {
 .indexSectionOne {
   padding: 1rem;
   width: 40rem;
-  color: var(--red);
 }
 
 .indexSectionOne h1 {
@@ -236,7 +250,7 @@ header nav ul li {
 /* testing */
 
 
-      a {
+      nav a {
         --fill-color: #e2313a;
         font: 1.7rem Railway, sans-serif;
         font-weight: 900;

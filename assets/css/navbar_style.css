@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: roboto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: grid;
+    grid-template-areas: 'a b';
+    margin: auto;
+    height: 3rem;
+    grid-gap: 10rem;
+    place-content: space-evenly;
+    background: #e2313a;
+}
+
+nav {
+    display: grid;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+ul {
+    padding: 0;
+}
+
+#navbar li {
+    list-style-type: none;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+#navbar li a {
+    color: white;
+    font-family: 'roboto';
+    font-variant: all-small-caps;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    text-decoration: underline;
+    
+}
+
+#navbar {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    min-height: 20rem;
+    top: 2rem;
+    width: 100%;
+    margin-right: 0;
+    background: #01131e;
+    z-index: 2;
+    display: none;
+    place-items: flex-end;
+    margin-right: 0rem;
+ }
+
+ 

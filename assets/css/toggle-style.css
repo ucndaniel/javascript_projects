@@ -51,6 +51,10 @@ ul {
 
 #navbar {
     display: none;
+ }
+
+ .navbarShow {
+    display: grid;
     flex-direction: column;
     position: absolute;
     left: 0;
@@ -60,16 +64,16 @@ ul {
     margin-right: 0;
     background: #01131e;
     z-index: 2;
-    display: none;
     place-items: flex-end;
     margin-right: 0rem;
- }
+}
 
  /* animated */
 
  .container {
     display: inline-block;
     cursor: pointer;
+    
   }
   
   .bar1, .bar2, .bar3 {

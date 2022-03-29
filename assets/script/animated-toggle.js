@@ -1,4 +1,4 @@
-function navbar() {
+    function navbar() {
     let navbar = document.getElementById("navbar");
     if (navbar.style.display === "grid") {
     navbar.style.display = "none";
@@ -7,12 +7,11 @@ function navbar() {
         }
       }
 
+
       function myFunction(x) {
         x.classList.toggle("change");
+        x.classList.toggle("navbarShow");
        }
 
+      
 
-       function myFuncs() {
-        navbar();
-        myFunction(x);
-    }

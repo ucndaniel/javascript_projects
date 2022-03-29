@@ -58,16 +58,15 @@ ul {
     top: 2rem;
     width: 100%;
     margin-right: 0;
-    background: #01131e;
+    background: #e2313a;
     z-index: 2;
-    display: none;
     place-items: flex-end;
     margin-right: 0rem;
  }
 
  /* animated */
 
- .container {
+ /* .container {
     display: inline-block;
     cursor: pointer;
   }
@@ -90,6 +89,27 @@ ul {
   .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
+  } */
+
+main {
+    display: grid;
+    min-height: 50rem;
+    background-color: #01131e;
+}
+.takeMeBack {
+    background-color: white;
+    width: 10rem;
+    height: auto;
+    margin: auto;
+    border: 0;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  .takeMeBack a{
+    color: #01131e;
+    font-weight: bold;
+    font-variant-caps: all-small-caps;
   }
 
  

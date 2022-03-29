@@ -242,10 +242,10 @@ header nav ul li {
   color: var(--red);
   text-align: center;
   padding: 0.5rem;
-  transition: 0.6s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 .sectionImageOne h1:hover, .sectionImageTwo h1:hover {
-  transition: 0.6s ease-in-out;
+  transition: 0.4s ease-in-out;
   color: #f5ced0;
 }
 .sectionImageOne a, .sectionImageTwo a {
@@ -261,12 +261,13 @@ header nav ul li {
   box-shadow: 5px 5px #0f0e0e;
   background-color: #e2313a;
   object-fit: cover;
-  transition: 0.6s ease-in-out;
+  transition: 0.4s ease-in-out;
+  border-radius: 5px;
 }
 
 .profileImage2:hover, .profileImage1:hover {
   background-color: #f5ced0;
-  transition: 0.6s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 
